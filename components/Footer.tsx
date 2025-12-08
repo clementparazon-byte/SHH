@@ -31,7 +31,7 @@ export const Footer: React.FC = () => {
               BUILD IT.
             </h2>
             <p className="text-lg md:text-xl font-mono text-neutral-600 mb-12 max-w-xl mx-auto">
-              The next batch starts Q3 2025 in Singapore. 
+              The inaugural batch starts Q3 2025 in Singapore. 
               We are looking for the outliers.
             </p>
             <button className="inline-flex items-center gap-4 px-12 py-6 bg-black text-white text-xl font-bold hover:bg-neutral-800 transition-all hover:gap-6">

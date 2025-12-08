@@ -15,35 +15,11 @@ No pitch decks. No warm intros. Just code.`;
 
 export const BATCHES: Batch[] = [
   {
-    id: 'sg-03',
-    name: 'SG // BATCH 03',
+    id: 'sg-01',
+    name: 'SG // BATCH 01',
     status: 'upcoming',
     date: 'Q3 2025',
     companies: [],
-  },
-  {
-    id: 'sg-02',
-    name: 'SG // BATCH 02',
-    status: 'active',
-    date: 'Q1 2025',
-    companies: [
-      { name: 'Nexus', description: 'Decentralized compute grid for AI inference.', url: '#' },
-      { name: 'Void', description: 'Privacy-first browser based on Chromium.', url: '#' },
-      { name: 'Synapse', description: 'Neural interface bridging simplified.', url: '#' },
-      { name: 'FlowState', description: 'IDE for flow-based programming.', url: '#' },
-      { name: 'Kopi.js', description: 'A lightweight JS runtime optimized for IoT.', url: '#' },
-    ],
-  },
-  {
-    id: 'sg-01',
-    name: 'SG // BATCH 01',
-    status: 'completed',
-    date: 'Q3 2024',
-    companies: [
-      { name: 'MerlionDB', description: 'High-performance time-series database.', url: '#' },
-      { name: 'Straits', description: 'Automated maritime logistics OS.', url: '#' },
-      { name: 'RedDot', description: 'Quantum encryption for fintech.', url: '#' },
-    ],
   },
 ];
 

@@ -6,7 +6,7 @@ export const Hero: React.FC = () => {
       <div className="max-w-7xl mx-auto w-full">
         <div className="mb-8">
           <span className="inline-block px-2 py-1 bg-neutral-900 border border-neutral-800 text-xs text-green-500 font-mono mb-6">
-             ● SYSTEM_STATUS: ACCEPTING APPLICATIONS FOR BATCH SG-03
+             ● SYSTEM_STATUS: ACCEPTING APPLICATIONS FOR BATCH SG-01
           </span>
         </div>
         
