@@ -25,9 +25,7 @@ export const Hero: React.FC = () => {
           
           <div className="flex flex-col gap-2">
              <div className="flex items-center gap-4 text-xs font-mono text-neutral-500">
-               <span>LATENCY: 4ms</span>
-               <span>REGION: SIN1</span>
-               <span>AVAILABILITY: 99.9%</span>
+               <span>(...)</span>
              </div>
           </div>
         </div>

@@ -45,7 +45,7 @@ export const BatchList: React.FC = () => {
                   </div>
                 ) : (
                    <div className="p-12 border border-dashed border-neutral-800 text-center text-neutral-600 font-mono text-sm">
-                      [ DATA_REDACTED // APPLICATIONS_OPEN ]
+                      [ APPLICATIONS_OPEN ]
                    </div>
                 )}
               </div>

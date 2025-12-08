@@ -22,7 +22,7 @@ export const Manifesto: React.FC = () => {
           </div>
           <div className="border-l border-neutral-800 pl-6">
             <h3 className="font-bold text-white mb-2">CAPITAL</h3>
-            <p className="text-neutral-500 text-sm">$100k investment on friendly terms to get you to seed.</p>
+            <p className="text-neutral-500 text-sm">$XXXk investment on friendly terms to get you to seed.</p>
           </div>
           <div className="border-l border-neutral-800 pl-6">
             <h3 className="font-bold text-white mb-2">NETWORK</h3>

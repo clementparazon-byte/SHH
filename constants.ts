@@ -18,7 +18,7 @@ export const BATCHES: Batch[] = [
     id: 'sg-01',
     name: 'SG // BATCH 01',
     status: 'upcoming',
-    date: 'Q3 2025',
+    date: 'H1 2026',
     companies: [],
   },
 ];
@@ -34,6 +34,6 @@ export const FAQS = [
   },
   {
     question: "What is the deal?",
-    answer: "$100k for 7%. We handle housing, food, and logistics so you can focus on building."
+    answer: "$XXXk funding. We handle housing, food, and logistics so you can focus on building."
   },
 ];
