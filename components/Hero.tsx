@@ -6,29 +6,27 @@ export const Hero: React.FC = () => {
       <div className="container">
         <div>
           <span className="system-status">
-             ● SYSTEM_STATUS: ACCEPTING APPLICATIONS FOR BATCH SG-01
+             ● System Status: Operational
           </span>
         </div>
         
         <h1 className="hero-title">
-          ACCELERATING <br/>
-          THE NEXT GENERATION <br/>
-          OF <span className="text-gradient">TECHNICAL FOUNDERS</span>
-          <br/> IN SINGAPORE.
+          Accelerating <br/>
+          the next generation <br/>
+          of technical founders
+          <br/> in Singapore.
         </h1>
 
-        <div className="hero-footer">
+        <div className="flex flex-col md-flex-row justify-between items-end gap-4" style={{ marginTop: '2rem' }}>
           <p className="hero-desc">
             We provide a 12-week residency, funding, and a network of obsessives.
             Designed for hackers who want to build the future, not just talk about it.
           </p>
           
-          <div className="flex flex-col gap-2">
-             <div className="hero-stats">
-               <span>LATENCY: 4ms</span>
-               <span>REGION: SIN1</span>
-               <span>AVAILABILITY: 99.9%</span>
-             </div>
+          <div className="flex gap-4" style={{ fontSize: '0.7rem', color: '#666', textTransform: 'uppercase' }}>
+             <span>Latency: 4ms</span>
+             <span>Region: SIN1</span>
+             <span>Availability: 99.9%</span>
           </div>
         </div>
       </div>
