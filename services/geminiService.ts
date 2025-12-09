@@ -33,7 +33,6 @@ export const getGeminiChat = (): Chat => {
     config: {
       systemInstruction: SYSTEM_INSTRUCTION,
       temperature: 0.7,
-      maxOutputTokens: 200,
     },
   });
 
