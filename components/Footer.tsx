@@ -1,6 +1,6 @@
 import React from 'react';
 import { FAQS } from '../constants';
-import { ArrowRight } from 'lucide-react';
+import { ApplyForm } from './ApplyForm';
 
 export const Footer: React.FC = () => {
   return (
@@ -21,18 +21,14 @@ export const Footer: React.FC = () => {
        </section>
 
        {/* Apply Section */}
-       <section id="apply" className="apply-cta">
-          <div className="container">
-            <h2 className="cta-title">
-              BUILD IT.
-            </h2>
-            <p className="cta-text">
+       <section id="apply" className="apply-section">
+          <div className="container" style={{ maxWidth: '800px' }}>
+            <h2 className="apply-title">APPLY NOW</h2>
+            <p className="apply-subtitle">
               The inaugural batch starts H1 2026 in Singapore. 
               We are looking for the outliers.
             </p>
-            <button className="btn-cta">
-               APPLY NOW <ArrowRight size={20} />
-            </button>
+            <ApplyForm />
           </div>
        </section>
 
