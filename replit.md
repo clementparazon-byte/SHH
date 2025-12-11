@@ -8,8 +8,7 @@ A React + TypeScript + Vite website for the Singapore Hackers Fund, an accelerat
 - `index.tsx` - React app entry point
 - `App.tsx` - Main React component
 - `styles.css` - Global styles
-- `components/` - React components (Header, Hero, Manifesto, BatchList, Footer, TerminalChat, ApplyForm)
-- `services/` - API services (Gemini integration)
+- `components/` - React components (Header, Hero, Manifesto, BatchList, Footer, ApplyForm)
 - `server/` - Express backend for email handling
 - `types.ts` - TypeScript types
 - `constants.ts` - Constants and configuration
@@ -20,7 +19,6 @@ A React + TypeScript + Vite website for the Singapore Hackers Fund, an accelerat
 - Vite 6
 - Express.js (backend)
 - Resend (email service)
-- Google Gemini AI (@google/genai)
 - Lucide React icons
 
 ## Development
@@ -29,7 +27,6 @@ A React + TypeScript + Vite website for the Singapore Hackers Fund, an accelerat
 - Build: `npm run build`
 
 ## Environment Variables
-- `GEMINI_API_KEY` - Google Gemini API key for the AI chat feature (optional)
 - `RESEND_API_KEY` - Resend API key for sending application emails (required for form submission)
 
 ## Email Setup Notes
@@ -40,5 +37,6 @@ The application form sends emails to info@singaporehackersfund.com using Resend.
 4. Note: You'll need to verify your domain (singaporehackersfund.com) in Resend to send from that domain
 
 ## Recent Changes
+- December 11, 2025: Removed AI chat feature (ASK_PARTNER_AI)
 - December 10, 2025: Added Apply Now form with email functionality via Resend
 - December 10, 2025: Initial Replit setup, configured Vite for port 5000 with proxy support

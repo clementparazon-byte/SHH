@@ -4,7 +4,6 @@ import { Hero } from './components/Hero';
 import { Manifesto } from './components/Manifesto';
 import { BatchList } from './components/BatchList';
 import { Footer } from './components/Footer';
-import { TerminalChat } from './components/TerminalChat';
 
 const App: React.FC = () => {
   return (
@@ -16,7 +15,6 @@ const App: React.FC = () => {
         <BatchList />
       </main>
       <Footer />
-      <TerminalChat />
       
       {/* Background Grid Decoration */}
       <div className="bg-grid"></div>
