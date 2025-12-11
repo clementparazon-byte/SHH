@@ -7,7 +7,6 @@ interface FormData {
   github: string;
   linkedin: string;
   project: string;
-  background: string;
   whyYou: string;
 }
 
@@ -20,7 +19,6 @@ export const ApplyForm: React.FC = () => {
     github: '',
     linkedin: '',
     project: '',
-    background: '',
     whyYou: '',
   });
   const [status, setStatus] = useState<FormStatus>('idle');
@@ -55,7 +53,6 @@ export const ApplyForm: React.FC = () => {
           github: '',
           linkedin: '',
           project: '',
-          background: '',
           whyYou: '',
         });
       } else {
@@ -148,19 +145,6 @@ export const ApplyForm: React.FC = () => {
           required
           rows={4}
           placeholder="Describe your current project or the problem you're obsessed with solving..."
-        />
-      </div>
-
-      <div className="form-group full-width">
-        <label htmlFor="background">TECHNICAL BACKGROUND *</label>
-        <textarea
-          id="background"
-          name="background"
-          value={formData.background}
-          onChange={handleChange}
-          required
-          rows={3}
-          placeholder="Your technical experience, languages you code in, notable projects..."
         />
       </div>
 

@@ -12,9 +12,9 @@ if (RESEND_API_KEY) {
 }
 
 app.post('/api/apply', async (req, res) => {
-  const { name, email, github, linkedin, project, background, whyYou } = req.body;
+  const { name, email, github, linkedin, project, whyYou } = req.body;
 
-  if (!name || !email || !project || !background || !whyYou) {
+  if (!name || !email || !project || !whyYou) {
     return res.status(400).json({ message: 'Please fill in all required fields.' });
   }
 
@@ -44,9 +44,6 @@ app.post('/api/apply', async (req, res) => {
         <hr/>
         <h3>What are you building?</h3>
         <p>${project.replace(/\n/g, '<br/>')}</p>
-        <hr/>
-        <h3>Technical Background</h3>
-        <p>${background.replace(/\n/g, '<br/>')}</p>
         <hr/>
         <h3>Why You?</h3>
         <p>${whyYou.replace(/\n/g, '<br/>')}</p>
