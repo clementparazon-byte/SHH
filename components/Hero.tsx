@@ -4,12 +4,6 @@ export const Hero: React.FC = () => {
   return (
     <section className="hero-section">
       <div className="container">
-        <div>
-          <span className="system-status">
-             ● SYSTEM_STATUS: ACCEPTING APPLICATIONS FOR BATCH SG-01
-          </span>
-        </div>
-        
         <h1 className="hero-title">
           ACCELERATING <br/>
           THE NEXT GENERATION <br/>
